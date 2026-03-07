@@ -1,11 +1,13 @@
 
 import './App.css'
 import Hero from './components/Hero'
+import Articles from './components/Articles'
 
 function App() {
   return (
     <>
      <Hero />
+     <Articles />
     </>
   )
 }
