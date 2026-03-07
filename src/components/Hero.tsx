@@ -21,11 +21,11 @@ export default function Hero (){
 
             {/* Content */}
             <div className='relative z-10 text-center px-6 max-w-3xl'>
-                <h1 className='text-4xl md:text-6xl font-extrabold leading-tight'>
-                    Skate Newsletter < span className='text-green-500'>Without the Filter</span>
+                <h1 className='text-5xl md:text-7xl font-extrabold '>
+                    Raw Skate Culture
                 </h1>
 
-                <p className='mt-6 text-lg md:text-xl text-gray-300'>
+                <p className='mt-6 text-lg text-gray-300 max-w-xl mx-auto'>
                     Weekly underground skate news, local spot highlights, and raw stories from the streets.
                 </p>
 
@@ -39,7 +39,7 @@ export default function Hero (){
                     className='px-4 py-3 w-full sm:w-80 rounded-lg text-white focus:outline-none focus:ring-2 focus:ring-green-500 hover:ring-green-500'
                     />
                     <button
-                    className='px-6 py-3 bg-green-500 hover:bg-green-600 transition duration-300 rounded-lg font-semibold '
+                    className='px-6 py-3 bg-red-600 hover:bg-red-700 transition rounded-lg font-bold'
                     >
                         Join the crew!
                     </button>

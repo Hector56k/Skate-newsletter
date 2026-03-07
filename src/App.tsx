@@ -1,7 +1,7 @@
 
 import './App.css'
 import Hero from './components/Hero'
-import Articles from './components/Articles'
+import Articles from './sections/Articles'
 
 function App() {
   return (
