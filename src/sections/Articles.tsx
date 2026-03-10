@@ -3,7 +3,9 @@ import { articles } from "../data/articles"
 
 export default function Articles() {
   return (
-    <section className="bg-black text-white py-20 px-6">
+    <section 
+    id="articles"
+    className="bg-black text-white py-20 px-6">
 
       <h2 className="text-5xl font-bold text-center mb-12">
         Latest Skate Stories
