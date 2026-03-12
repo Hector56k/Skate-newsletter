@@ -19,4 +19,4 @@ Vite
 
 ## Live Demo
 
-https://your-site.vercel.app
+skate-newsletter.vercel.app
