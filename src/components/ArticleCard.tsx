@@ -1,19 +1,36 @@
-type ArticleCardProps = {
+type Article = {
     title: string,
     description: string,
-    image: string
+    image: string,
+    category: string
 }
 
 
-export default function ArticleCard({ title, description, image }: ArticleCardProps){
+export default function ArticleCard({ article }: { article: Article }){
     return (
-        <div className="bg-zinc-900 rounded-xl p-6 hover:scale-105 transition-transform duration-300">
-            <img src={image} alt={title} className="w-full h-48 object-cover"/>
+       <div className="group relative overflow-hidden rounded-xl">
 
-            <div className="p-4">
-                <h3 className="text-xl font-semibold">{title}</h3>
-                <p className="text-gray-400 mt-2">{description}</p>
-            </div>
-        </div>
+        <img
+         src={article.image}
+         alt={article.title}
+         className="w-full h-64 object-cover group-hover:scale-110 transition-transform duration-500"
+         />
+
+         <div className="absolute inset-0 bg-black/50 flex flex-col justify-end p-4">
+         
+         <span className="text-xs bg-red-600 px-2 py-1 w-fit mb-2 rounded">
+            {article.category}
+         </span>
+
+         <h3 className="text-white text-lg font-bold">
+            {article.title}
+         </h3>
+
+         <p className="text-gray-300 text-sm">
+            {article.description}
+         </p>
+
+         </div>
+       </div>
     )
 }

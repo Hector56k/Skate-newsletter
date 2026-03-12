@@ -1,27 +1,23 @@
 export const articles = [
     {
-        title: "Top 5 DIY Skate Spots",
-        description: "Secret skate spots built by skaters for skaters.",
-        image: "https://images.unsplash.com/photo-1547448415-e9f5b28e570d"
+        id: 1,
+        title: "Top 10 Street Spots in LA",
+        description: "Legendary ledges and hidden stair sets.",
+        image: "https://images.unsplash.com/photo-1554266887-5b0f927d881d?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bGF8ZW58MHx8MHx8fDA%3D",
+        category: "Street"
     },
     {
-        title: "Why Stair Sets Define Skaters",
-        description: "The psychology behind committing to big tricks.",
-        image: "https://images.unsplash.com/photo-1508609349937-5ec4ae374ebf"
+        id: 2,
+        title: "Kickflip Progression Guide",
+        description: "Dial in your flick and land bolts.",
+        image: "https://images.unsplash.com/photo-1625582954251-84aa628fac8b?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8a2lja2ZsaXB8ZW58MHx8MHx8fDA%3D",
+        category: "Tricks"
     },
     {
-        title: "Underground Skate Brands",
-        description: "Brands keeping skate culture raw.",
-        image: "https://images.unsplash.com/photo-1517048676732-d65bc937f952"
+        id: 3,
+        title: "Underground Skate Crews",
+        description: "The next generation of raw street skating.",
+        image: "https://images.unsplash.com/photo-1564485986486-06f447a399d8?w=900&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c2thdGUlMjBjcmV3fGVufDB8fDB8fHww",
+        category: "Culture"
     },
-    {
-        title: "Who Is The Next Up And Coming Ams.",
-        description: "Get to know the future.",
-        image: "https://i.ytimg.com/vi/l8-JItoo5pw/hqdefault.jpg"
-    },
-    {
-        title: "Is The Industry Going Under",
-        description: "Why these companies are dying.",
-        image: "https://hips.hearstapps.com/hmg-prod/images/articles/2016/01/panic-1508866251.jpg?crop=0.845xw:1xh;center,top&resize=1200:*"
-    }
 ]
